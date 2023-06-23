@@ -54,7 +54,7 @@ export default function Home() {
       return item.Kingdom.toLocaleLowerCase().includes(e.toLocaleLowerCase())
     });
     setData(newData);
-    e == "" ? setSelectValue("") : ""
+    setSelectValue("")
   }
 
   const optionChange = (e: any) => {
